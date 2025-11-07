@@ -1,0 +1,13 @@
+Summary :
+
+ Successfully completed a full security assessment of the Metasploitable 2 system, found and exploited critical vulnerabilities that allowed to:
+
+• Access the entire user database through SQL injection
+• Crack  passwords using automated tools
+• Gain root system access through  backdoors
+• Control the server completely
+
+Used professional security tools including Nmap, sqlmap, and Metasploit to systematically test the environment. The assessment followed industry-standard methodology and produced comprehensive documentation 
+with evidence screenshots, risk ratings, and repair recommendations.
+
+All project requirements were met by the deadline, demonstrating ability to conduct complete security assessments and provide actionable solutions for protecting business systems.
