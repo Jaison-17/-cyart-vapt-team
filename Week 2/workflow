@@ -1,0 +1,69 @@
+Overview
+This project demonstrates a full Vulnerability Assessment and Penetration Testing (VAPT) cycle against a Metasploitable2 vulnerable environment, following PTES methodology to identify, exploit, and 
+document security vulnerabilities.
+
+Phase 1: Environment Setup
+Step 1.1: Lab Configuration
+
+ Kali Linux as attacking machine
+ Metasploitable2 as target VM (192.168.29.108)
+ VMware for virtualization
+ Network: NAT
+
+Phase 2: Vulnerability Scanning
+Step 2.1: Network Reconnaissance
+
+ # Basic host discovery
+ nmap -sn 192.168.29.0/24
+
+# Comprehensive service scan
+ nmap -sV -sC 192.168.29.108
+
+Step 2.2: Vulnerability Assessment
+ # Web application scanning
+ nikto -h http://192.168.29.108
+
+  Vulnerability Tracking:
+  vulnerability tracking matrix identified 5 critical security flaws requiring immediate remediation, with SQL Injection posing the highest risk to data integrity
+
+   Scan ID | Vulnerability       | CVSS Score | Priority | Host
+--------|--------------------|------------|----------|---------------
+   001     | SQL Injection      | 9.1        | Critical | 192.168.29.108
+
+Phase 3: Exploitation
+
+"Successful exploitation demonstrated complete system compromise"
+"The vulnerability was weaponized to achieve unauthorized access"
+"Proof-of-concept exploitation validated the security weakness"
+
+ Results: Complete database compromise with all user credentials extracted and cracked.
+
+Phase 4: Post-Exploitation
+
+ Step 4.1: Privilege Escalation
+ Achieved root access through multiple vectors
+ System enumeration and information gathering
+ Network configuration analysis
+
+Phase 5: Documentation & Reporting
+
+ Step 5.1: Activity Logging
+
+  Timestamp            | Target IP      | Vulnerability | PTES Phase
+--------------------|----------------|---------------|--------------
+2025-11-04 12:00:05 | 192.168.29.108 | SQL Injection | Exploitation
+
+Key Tools & Technologies :
+ Nmap: Network discovery and service enumerationsqlmap: Automated SQL injection tool
+ Nessus: Comprehensive vulnerability scanning
+ 
+ sqlmap: Automated SQL injection tool
+ Metasploit: Exploitation framework
+ Burp Suite: Web application testing
+
+This capstone project successfully demonstrated a complete VAPT lifecycle from initial reconnaissance through final reporting. The assessment revealed critical security vulnerabilities that could lead to
+complete system compromise in a real-world scenario. The project highlights the importance of regular security assessments, patch management, and defense-in-depth strategies
+
+
+ 
+
