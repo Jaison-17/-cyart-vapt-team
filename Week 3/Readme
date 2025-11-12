@@ -1,0 +1,16 @@
+5. Capstone Project: Full VAPT Cycle
+Activities:
+Tools: Kali Linux, Metasploit, OpenVAS, Google Docs.
+Tasks: Simulate a full pentest, exploit, report.
+Brief:
+Simulation: Exploit a VulnHub VM (e.g., Kioptrix) with Metasploit (e.g., use exploit/linux/http/drupal_drupageddon). Follow TryHackMe guides.
+Detection: Log OpenVAS findings:
+Timestamp            | Target IP      | Vulnerability | PTES Phase
+--------------------|----------------|---------------|--------------
+2025-08-25 13:00:00 | 192.168.1.150  | Drupal RCE    | Exploitation
+Remediation: Suggest patches, rescan to verify.
+Reporting: Write a 200-word PTES report in Google Docs:
+Executive Summary
+Findings
+Recommendations
+Briefing: Draft a 100-word non-technical summary.
