@@ -1,6 +1,29 @@
+Theoretical Knowledge:
+
+Advanced Vulnerability Exploitation - Multi-stage attacks and exploit customization
+Web Application Penetration Testing - OWASP Top 10 and testing methodologies
+Reporting & Stakeholder Communication - Professional documentation and communication
+
+Practical Application:
+
+Advanced exploitation labs with real-world scenarios
+Web application security testing environments
+Professional reporting and evidence collection
+Complete VAPT cycle simulation
+
+Lab Environment Setup:
+
+Prerequisites:
+
+VirtualBox/VMware
+Kali Linux VM
+Metasploitable2 VM
+DVWA (Damn Vulnerable Web Application)
+VulnHub VMs (Kioptrix series recommended)
+
 5. Capstone Project: Full VAPT Cycle
 Activities:
-Tools: Kali Linux, Metasploit, OpenVAS, Google Docs.
+Tools: Kali Linux, Metasploit, OpenVAS/Nessus, Google Docs.
 Tasks: Simulate a full pentest, exploit, report.
 Brief:
 Simulation: Exploit a VulnHub VM (e.g., Kioptrix) with Metasploit (e.g., use exploit/linux/http/drupal_drupageddon). Follow TryHackMe guides.
